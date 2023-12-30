@@ -47,7 +47,7 @@
      - Proxy Squid             : 3128 & 8000
      
 ### INSTALATION
-<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt install curl -y && apt install -y wget screen && wget https://raw.githubusercontent.com/CatzBurry/AIO/main/install.sh && chmod +x install.sh && ./install.sh</code></pre>
+<pre><code>sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt upgrade -y && apt install curl -y && apt install -y wget screen && wget https://raw.githubusercontent.com/mousethain/penak/main/install.sh && chmod +x install.sh && ./install.sh</code></pre>
 
 ## VERSION
 V3.0 - 01/09/2023
