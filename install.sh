@@ -18,7 +18,7 @@ clear
 # // Exporint IP AddressInformation
 export IP=$( curl -sS ipinfo.io/ip )
 # REPO
-REPO="https://raw.githubusercontent.com/CatzBurry/AIO/main/"
+REPO="https://raw.githubusercontent.com/mousethain/penak/main/"
 
 
 # // Clear Data
@@ -119,8 +119,8 @@ echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━�
 echo -e "                PERMISSION DENIED ! "
 echo -e "     Your VPS ${NC}( ${green}$IP${NC} ) ${YELLOW}Has been Banned "
 echo -e "         Buy access permissions for scripts "
-echo -e "                 Contact Admin : CatzBurry"
-echo -e "             ${green}Telegram t.me/catzbury "
+echo -e "                 Contact Admin : Mousevpn"
+echo -e "             ${green}Telegram t.me/mousevpn "
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 rm -f premi.sh
@@ -377,7 +377,7 @@ Pass Login	: <code>070711</code>
 User Scrip	: <code>$username</code>
 Exp Script	: <code>$exp</code>
 ============================
-(C) Copyright 2023 By CatzBurry
+(C) Copyright 2023 By Mousevpn
 ============================
 "
    curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
