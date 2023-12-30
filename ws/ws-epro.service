@@ -1,6 +1,6 @@
 [Unit]
 Description=WebSocket
-Documentation=https://kang-parkir.me
+Documentation=https://mousevpn.my.id
 After=syslog.target network-online.target
 
 [Service]
