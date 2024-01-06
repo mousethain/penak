@@ -10,7 +10,7 @@ Button.inline(" VLESS MANAGER ","vless")],
 [Button.inline(" TROJAN MANAGER ","trojan")],
 [Button.inline(" OTHER SETTING ","setting")]]
 	ox = requests.get(f"https://ipv4.icanhazip.com").text.strip()
-	bz = f" curl -sS https://raw.githubusercontent.com/CatzBurry/AIO/main/access/ip | grep '{ox}'| cut -d ' ' -f6 "
+	bz = f" curl -sS https://raw.githubusercontent.com/mousethain/penak/main/access/ip | grep '{ox}'| cut -d ' ' -f6 "
 	bo = subprocess.check_output(bz, shell=True).decode("ascii").strip()
 	if not ox != bo:
 		sender = await event.get_sender()
